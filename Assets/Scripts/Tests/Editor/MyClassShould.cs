@@ -4,10 +4,10 @@ using NUnit.Framework;
 namespace Tests.Editor
 {
     [TestFixture]
-    public class DummyTest 
+    public class MyClassShould
     {
         [Test]
-        public void Pass()
+        public void Pass_This_Test()
         {
             Assert.Pass();
         }
